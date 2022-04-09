@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../multimedia/favicon.ico">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Contacto | CYAN Soluciones</title>
+</head>
+<body>
+    <header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Sucursales.html">Sucursales</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="titulo">Contacto</h1>
+        <p class="info">Para solicitud de cotización, quejas o felicitaciones hacia alguno de nuestros empleados, por favor utiliza el siguiente formulario para hacernos llegar tu mensaje.</p>
+        <form method="post" class="formulario">
+            <label for="nombre">¿Cuál es tu nombre?</label>
+            <input type="text" placeholder="Escribe tu nombre" name="nombre">
+            <label for="email">¿Cuál es tu correo electrónico?</label>
+            <input type="email" placeholder="Escribe tu correo electrónico" name="email">
+
+            <label for="tipomsj">¿Qué tipo de mensaje quieres enviar?</label>
+            <select name="tipomsj" id="">
+                <option value="0">Elige una opción</option>
+                <option value="1">Solicitud de cotización</option>
+                <option value="2">Queja o sugerencia</option>
+                <option value="3">Felicitación</option>
+            
+            
+            <label for="mensaje">¿En qué podemos ayudarte?</label>
+            <textarea name="mensaje" id="" cols="60" rows="10" placeholder="Escribe tu mensaje"></textarea>
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar mensaje">
+            
+        </form>
+    </main>
+
+
+    
+    <footer class="footer">
+        <p>CYAN Soluciones 2022 | Derechos reservados</p>
+        <p>Visítanos en</p>
+        <a href="https://www.facebook.com/Cyansoluciones-100587248868288" target="_blank">
+            <img src="../multimedia/facebook_icon.png" alt="Icono Facebook">
+        </a>
+    </footer>
+</body>
+</html>
