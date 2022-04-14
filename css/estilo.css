@@ -8,8 +8,9 @@ html{
     font-family: 'Rubik', sans-serif;
 }
 
+/*
 body{
-    background-color: rgb(64, 69, 74);
+    
     display: grid;
     grid-template-columns: auto;
     grid-template-areas: 
@@ -17,12 +18,15 @@ body{
     "main"
     "footer";
 }
+*/
+
 
 .header{
     grid-area: header;
 }
 
 .main{
+    background-color: rgb(64, 69, 74);
     grid-area: main;
     text-align: center;
     display: flex;
@@ -32,16 +36,17 @@ body{
 }
 
 
-.menuBar{
+.navbar-nav{
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     text-align: right;
     font-size: 2rem;
+    /*font-size: 2rem;
     padding: 10px;
-    height: auto;
+    height: auto;*/
 }
 
-.menuBar li{
+.navbar-nav li{
     display: flex;
     flex-direction: column;
     margin: 12px 10px;
@@ -222,6 +227,8 @@ body{
 /*Tamaño para tablet*/
 
 @media screen and (min-width:750px) {
+    
+    /*
     body{
         display: grid;
         grid-template-columns: auto;
@@ -231,6 +238,7 @@ body{
         "footer";
         
     }
+    */
 
     .menuBar{
         background-color: #489fb5ff;
@@ -264,6 +272,7 @@ body{
     .video{
         width: 560px;
         height: 315px;
+        align-content: center;
     }
 
     .map{
@@ -280,6 +289,7 @@ body{
 /*Tamaño para escritorio*/
 
 @media screen and (min-width:1200px) {
+    /*
     body{
         display: grid;
         grid-template-columns: auto;
@@ -288,6 +298,7 @@ body{
         "main"
         "footer";
     }
+    */
 
     .menuBar{
         background-color: #489fb5ff;
@@ -307,7 +318,9 @@ body{
         width: 500px;
     }
 
+
     .articulo{
+        text-align: center;
         width: 980px;
         content: 1rem;
         padding: 1rem;
