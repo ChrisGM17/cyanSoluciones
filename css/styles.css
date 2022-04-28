@@ -51,6 +51,46 @@
   .formulario select {
     margin-bottom: 15px; }
 
+/*Mapa*/
+.btn--facebook {
+  background-color: #372d82; }
+
+.btn--mail {
+  background-color: #af0037; }
+
+.btn--instagram {
+  background-color: #640c97; }
+
+.btn--whatsapp {
+  background-color: #1cc440; }
+
+/*MapGet*/
+.avisos {
+  background-color: tomato;
+  text-align: center;
+  padding: 1rem;
+  font-size: 25px; }
+
+/*Extend*/
+.boton, .boton--nosotros, .boton--contacto {
+  color: black;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: white;
+  text-align: center; }
+
+.boton--nosotros {
+  background-color: #2b46b5;
+  color: ghostwhite; }
+
+.boton--contacto {
+  background-color: tomato;
+  color: ghostwhite; }
+
+/*Mixins*/
 * {
   margin: 0;
   padding: 0; }

@@ -1,0 +1,61 @@
+/*Mapa*/
+$redes: (
+            facebook: rgb(55, 45, 130),
+            mail: rgb(175, 0, 55),
+            instagram: rgb(100, 12, 151),
+            whatsapp: #1cc440
+);
+
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+}
+
+
+/*MapGet*/
+$estilos:(
+    color: tomato,
+    centrar: center,
+    tFuente: 25px,
+    1rem : 1rem
+
+);
+
+.avisos{
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos , centrar);
+    padding: map-get($estilos , 1rem );
+    font-size: map-get($estilos , tFuente);
+}
+
+/*Extend*/
+.boton {
+    color:black;
+	border-radius:8px;
+	border:2px solid black;
+    margin: 10px;
+	width:170px;
+	height:50px;
+	background-color:white;
+	text-align:center;
+}
+
+.boton--nosotros{
+	@extend .boton;
+	background-color:rgb(43, 70, 181);
+	color:ghostwhite;
+}
+
+.boton--contacto{
+	@extend .boton;
+	background-color:tomato;
+	color:ghostwhite;
+}
+
+/*Mixins*/ 
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
