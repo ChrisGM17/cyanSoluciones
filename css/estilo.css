@@ -31,6 +31,10 @@ body{
     align-items: center;
 }
 
+.mainServicios{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .menuBar{
     background-color: #0093E9;

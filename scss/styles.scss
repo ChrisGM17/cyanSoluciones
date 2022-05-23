@@ -5,6 +5,9 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 html{
@@ -143,7 +146,13 @@ body{
     height: 200px;
 }
 
-
+.redes {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+}
 
 
 
@@ -171,18 +180,7 @@ body{
         
     }
 
-    .menuBar{
-        background-color: #489fb5ff;
-        text-align: center;
-        font-size: 2rem;
-        padding: 10px;
-        height: auto;
-        li{
-            display: inline-block;
-            position: relative;;
-            margin: 12px 10px;
-        }
-    }
+    
 
     .articulo{
         width: 600px;
@@ -202,7 +200,7 @@ body{
     }
 
     .formulario textarea{
-        width: 600px;
+        width: 500px;
     }
 
     .video{
@@ -229,18 +227,7 @@ body{
         "footer";
     }
 
-    .menuBar{
-        background-color: #489fb5ff;
-        text-align: right;
-        font-size: 2rem;
-        padding: 10px;
-        height: auto;
-        li{
-            display: inline-block;
-            position: relative;;
-            margin: 12px 10px;
-        }
-    }
+
 
 
     .info{
@@ -294,7 +281,7 @@ body{
 
 
     .formulario textarea{
-        width: 750px;
+        width: 680px;
     }
 
     .video{

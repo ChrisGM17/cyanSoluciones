@@ -14,14 +14,22 @@
     <title>Sucursales | CYAN Soluciones</title>
 </head>
 <body>
-    <header>
-        <nav class="menuBar">
-            <ul>
+    <header class="header">
+        <nav class="menuBarra">
+            <a href="#">
+                <img id="logo" src="../multimedia/logo_cyan.png" alt="Logotipo CYAN Soluciones">
+            </a>
+            <!-- Boton menu hamburguesa -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img class="btnMenu" src="../multimedia/bars-solid.png" alt="">
+            </label>
+            <ul class="menuBar">
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li><a href="Sucursales.html">Sucursales</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="../pages/Nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/Servicios.html">Servicios</a></li>
+                <li><a class="active" href="../pages/Sucursales.html">Sucursales</a></li>
+                <li><a href="../pages/Contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -48,9 +56,17 @@
     <footer class="footer">
         <p>CYAN Soluciones 2022 | Derechos reservados</p>
         <p>Visítanos en</p>
-        <a href="https://www.facebook.com/Cyansoluciones-100587248868288" target="_blank">
-            <img src="../multimedia/facebook_icon.png" alt="Icono Facebook">
-        </a>
+        <div class="redesSociales">
+            <a class="redes" href="https://www.facebook.com/Cyansoluciones-100587248868288" target="_blank">
+                <img class="redes facebook" src="../multimedia/facebook-brands.png" alt="Icono Facebook">
+            </a>
+            <a class="redes" href="#" target="_blank">
+                <img class="redes facebook" src="../multimedia/youtube-brands.png" alt="Icono YouTube">
+            </a>
+            <a class="redes" href="#" target="_blank">
+                <img class="redes facebook" src="../multimedia/instagram-brands.png" alt="Icono Instagram">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
